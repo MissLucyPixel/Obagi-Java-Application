@@ -5,6 +5,8 @@ public class Operators{
 		int num1 = 13;
 		int num2 = 5;
 		
+		num1 += num2;
+		
 		//Arithmetic operator(+,*.-,/,%)
 		int sum = num1 + num2;
 		int product = num1 * num2 ;
