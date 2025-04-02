@@ -22,6 +22,6 @@ public class SumArbitrary{
 			 }
 		}
 	    System.out.println("Sum of entered postive integers: " + sum);	
-		  
+		 
     }
 }
