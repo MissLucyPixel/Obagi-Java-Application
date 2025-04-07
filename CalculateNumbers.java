@@ -12,7 +12,7 @@ public class CalculateNumbers{
 		  int num = input.nextInt();
 		  
 		  if(i >= 6 && i <= 8){
-			  sumOf6_8 +=num;
+			  sumOf6_8 +=num; 
 		  }
 		  if(i >= 4 && i <= 9){
 			  sumOf4_9 +=num;
