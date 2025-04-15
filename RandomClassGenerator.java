@@ -12,5 +12,6 @@ public class RandomClassGenerator{
 		
 		int integerWithBound = random.nextInt(2000) + 1;
 		System.out.printf("The random number is %d%n",integerWithBound);
+		
 	}
 }
