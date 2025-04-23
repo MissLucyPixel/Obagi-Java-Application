@@ -1,0 +1,36 @@
+1)Variable Length Argument List (Varargs)
+  Varargs stands for "Variable Arguments". It allows you to pass multiple values (or even none) to a method using a single parameter.
+Instead of writing several overloaded methods or passing an array manually, Java lets you do this more easily with varargs.
+
+Purpose: Allows a method to accept zero or more arguments of the same type.
+Introduced in Java 5 to simplify methods that take multiple arguments.
+
+Syntax : returnType methodName(type... varName)
+
+-The ... (three dots) tells Java it's a varargs parameter.
+-Internally, Java treats varargs as an array.
+
+✅ Key Points:
+-You can pass any number of arguments (even zero).
+
+-Only one varargs parameter is allowed per method.
+
+-It must be the last parameter in the method signature.
+
+
+2)Command Line Arguments
+    These are arguments passed to the main() method from the command line.Command Line Arguments are values passed 
+to a Java program when it starts, from the command line (terminal/console).
+These values go into the main method as a String array.
+Signature: public static void main(String[] args)
+
+args is an array of String values.
+
+✅ Key Points:
+-args is an array of Strings.
+
+-You can pass any number of arguments (even zero).
+
+-Arguments are always Strings, so you may need to convert them if needed (e.g., to int).
+
+
